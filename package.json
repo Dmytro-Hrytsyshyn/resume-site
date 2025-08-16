@@ -1,8 +1,9 @@
 {
-  "name": "goit-react-hw-03",
+  "name": "resume-site",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dmytro-hrytsyshyn.github.io/resume-site",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
