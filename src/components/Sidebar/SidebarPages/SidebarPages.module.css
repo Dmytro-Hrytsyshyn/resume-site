@@ -1,0 +1,55 @@
+.link {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+  color: #dedada;
+  background-color: rgba(135, 123, 123, 0.5);
+  font-weight: 400;
+  transition: 0.2s;
+  font-family: "Disket Mono", monospace;
+  /* letter-spacing: px; */
+}
+
+@media screen and (min-width: 1000px) {
+  .link {
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    color: #dedada;
+    background-color: transparent;
+    font-weight: 600;
+    transition: 0.2s;
+    letter-spacing: -1px;
+  }
+
+  .nav_item {
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: none;
+  }
+
+  .nav_item::before {
+    margin-left: auto;
+  }
+
+  .nav_item::after,
+  .nav_item::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #a3a3a3;
+    display: block;
+    transition: 0.25s;
+  }
+
+  .nav_item:hover::after,
+  .nav_item:hover::before {
+    width: 100%;
+  }
+}

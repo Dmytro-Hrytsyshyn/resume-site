@@ -1,0 +1,42 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.icons {
+  fill: white;
+}
+
+.social_list {
+  display: flex;
+  gap: 45px;
+}
+
+@media screen and (min-width: 1000px) {
+  .social_item {
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .social_item:hover {
+    scale: 1.2;
+  }
+
+  .aside {
+    gap: 30px;
+  }
+  .social_list {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 25px;
+    cursor: pointer;
+  }
+}

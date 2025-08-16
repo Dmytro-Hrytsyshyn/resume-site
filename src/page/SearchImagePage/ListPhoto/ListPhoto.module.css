@@ -1,0 +1,22 @@
+.photo_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 15px;
+
+  height: 800px;
+  border-radius: 15px;
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.photo_list ::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@media screen and (min-width: 1000px) {
+  .photo_list {
+    display: flex;
+  }
+}
