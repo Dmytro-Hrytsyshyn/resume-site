@@ -2,7 +2,7 @@ import css from "./App.module.css";
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import { useState } from "react";
-import { routers } from "./routers.jsx";
+import { routers } from "./data/routers.jsx";
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false);

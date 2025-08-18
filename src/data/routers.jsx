@@ -1,7 +1,7 @@
-import CertificatePage from "./page/CertificatePage/CertificatePage";
-import SearchImagePage from "./page/SearchImagePage/SearchImagePage";
-import ProjectsPage from "./page/SettingsPage/ProjectsPage";
-import WelcomePage from "./page/WelcomePage/WelcomePage";
+import CertificatePage from "../page/CertificatePage/CertificatePage";
+import SearchImagePage from "../page/SearchImagePage/SearchImagePage";
+import ProjectsPage from "../page/ProjectsPage/ProjectsPage";
+import WelcomePage from "../page/WelcomePage/WelcomePage";
 
 export const routers = [
   { path: "/", name: "About", icon: "home", element: <WelcomePage /> },

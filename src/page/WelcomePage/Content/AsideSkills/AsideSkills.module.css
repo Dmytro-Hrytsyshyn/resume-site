@@ -8,15 +8,15 @@
 }
 
 .skill_item {
-  width: 150px;
+  width: 50px;
   display: flex;
-  gap: 22px;
+  /* gap: 22px; */
   font-weight: 800;
   align-items: center;
   padding: 4px 10px;
-  border: 1.5px solid #ebe0e0;
+  border: none;
   border-radius: 8px;
-  background-color: rgb(22, 49, 75);
+  background-color: rgb(20, 44, 73);
   cursor: pointer;
   /* min-width: 200px; */
   /* height: 100%; */
@@ -26,4 +26,19 @@
   width: 35px;
   height: 35px;
   fill: rgb(152, 58, 37);
+}
+
+.title_skill {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .title_skill {
+    display: block;
+  }
+
+  .skill_item {
+    width: 150px;
+    gap: 22px;
+  }
 }

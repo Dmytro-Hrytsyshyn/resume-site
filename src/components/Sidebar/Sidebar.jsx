@@ -11,7 +11,7 @@ const Sidebar = ({ routers, openMenu, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <svg className={style.svg_icon_menu} height="35" width="35">
-          <use href="./Image/symbol-defs.svg#icon-menu"></use>
+          <use href="/public/Image/symbol-defs.svg#icon-menu"></use>
         </svg>
       </button>
 
@@ -19,7 +19,7 @@ const Sidebar = ({ routers, openMenu, toggleMenu }) => {
         <nav>
           <button className={style.btn_close_menu} onClick={toggleMenu}>
             <svg height="20" width="20">
-              <use href="./Image/symbol-defs.svg#icon-cross"></use>
+              <use href="/public/Image/symbol-defs.svg#icon-cross"></use>
             </svg>
           </button>
 
