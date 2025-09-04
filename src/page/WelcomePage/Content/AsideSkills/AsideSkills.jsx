@@ -44,9 +44,7 @@ const AsideSkills = ({ className }) => {
                 width="35"
                 fill={item.color}
               >
-                <use
-                  href={`/public/Image/symbol-defs.svg#${item.icon_style}`}
-                ></use>
+                <use href={`/Image/symbol-defs.svg#${item.icon_style}`}></use>
               </svg>
               <p className={style.title_skill}>{item.name}</p>
             </div>

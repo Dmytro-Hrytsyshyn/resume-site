@@ -1,7 +1,7 @@
 export const projectList = [
   {
     name: "PhotoFinder",
-    img: "../public/Image/sitePhoto/PhotoFinder.png",
+    img: "/Image/sitePhoto/PhotoFinder.png",
     type: "personal",
     description:
       "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi, temporibus beatae modi eligendi expedita, necessitatibus dicta minus consequatur, laudantium inventore cumque. Veritatis iusto libero voluptatibus quaerat sunt illo. Aut.",
@@ -10,7 +10,7 @@ export const projectList = [
   },
   {
     name: "WebStudio",
-    img: "../public/Image/sitePhoto/WebStudio.png",
+    img: "/Image/sitePhoto/WebStudio.png",
     type: "personal",
     description:
       "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi, temporibus beatae modi eligendi expedita, necessitatibus dicta minus consequatur, laudantium inventore cumque. Veritatis iusto libero voluptatibus quaerat sunt illo. Aut.",
