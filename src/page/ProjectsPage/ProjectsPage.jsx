@@ -1,9 +1,10 @@
-import style from "./ProjectsPage.module.css";
+import ListProjects from "./ListProjects";
+// import style from "./ProjectsPage.module.css";
 
 const ProjectsPage = () => {
   return (
     <div>
-      <h2 className={style.proj_title}>My projects</h2>
+      <ListProjects />
     </div>
   );
 };

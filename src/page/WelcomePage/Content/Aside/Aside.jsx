@@ -17,7 +17,7 @@ const Aside = ({ className }) => {
           <li className={style.social_item} key={item.social}>
             <a href={item.social} target="_blank">
               <svg className={style.icons} height="45" width="45">
-                <use href={`./Image/symbol-defs.svg#${item.icon}`}></use>
+                <use href={`/public/Image/symbol-defs.svg#${item.icon}`}></use>
               </svg>
             </a>
           </li>

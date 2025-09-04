@@ -1,0 +1,59 @@
+@media screen and (min-width: 1000px) {
+  .project_item {
+    border-radius: 15px;
+    width: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #4e7f8f;
+    overflow: hidden;
+  }
+
+  .project_item:hover .img {
+    filter: brightness(40%);
+    transition: 0.3s;
+  }
+
+  .img_url {
+    position: relative;
+  }
+
+  .title_click_url {
+    fill: #ffffff;
+    color: #ffffff;
+    display: none;
+  }
+
+  .project_item:hover .title_click_url {
+    display: block;
+    font-size: 50px;
+    position: absolute;
+    top: -120px;
+    left: 40px;
+    transition: 0.3s;
+  }
+
+  .img {
+    width: 400px;
+  }
+
+  .project_item:hover {
+    scale: 1.04;
+  }
+
+  .info_item {
+    padding: 10px;
+  }
+
+  .name_proj {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .lang_title {
+    margin-bottom: 5px;
+  }
+
+  .click_icon {
+    fill: #f3f3f3;
+  }
+}

@@ -1,0 +1,15 @@
+.proj_item {
+  border: 1px solid #000;
+}
+
+.my_proj_title {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.team_proj_title {
+}
+
+.projects_list {
+  display: flex;
+  gap: 40px;
+}
