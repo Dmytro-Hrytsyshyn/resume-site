@@ -8,7 +8,7 @@ const SidebarPages = ({ routers }) => {
         <li className={style.nav_item} key={path}>
           <Link className={style.link} to={path}>
             <svg className={style.icon} height="25" width="25" fill="white">
-              <use href={`/public/Image/symbol-defs.svg#${icon}`}></use>
+              <use href={`/Image/symbol-defs.svg#${icon}`}></use>
             </svg>
             <h3>{name}</h3>
           </Link>
