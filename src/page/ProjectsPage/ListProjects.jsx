@@ -13,13 +13,13 @@ const ListProjects = () => {
   });
 
   return (
-    <div>
-      <h3 className={style.my_proj_title}>My personal projects</h3>
+    <div className={style.projects_container}>
+      <h3 className={style.proj_title}>My personal projects</h3>
       <ul className={style.projects_list}>
         <PersonalProjects personalProjects={personalProjects} />
       </ul>
 
-      <h3 className={style.team_proj_title}>My team projects</h3>
+      <h3 className={style.proj_title}>My team projects</h3>
       <ul className={style.projects_list}>
         <TeamProjects teamProjects={teamProjects} />
       </ul>

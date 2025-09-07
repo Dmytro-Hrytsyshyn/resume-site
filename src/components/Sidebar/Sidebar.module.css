@@ -6,9 +6,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 180px;
-  background-color: rgba(88, 87, 87, 0.5);
+  background-color: rgba(40, 36, 36, 0.4);
   backdrop-filter: blur(20px);
   box-shadow: 4px 0 12px rgba(123, 122, 122, 0.15);
   padding: 25px 8px;

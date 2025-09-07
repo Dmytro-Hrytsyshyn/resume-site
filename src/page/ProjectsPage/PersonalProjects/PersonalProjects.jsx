@@ -10,15 +10,17 @@ const PersonalProjects = ({ personalProjects }) => {
             <p className={style.title_click_url}>
               Visit website
               <svg className={style.click_icon} height="55" width="55">
-                <use href="/public/Image/symbol-defs.svg#click"></use>
+                <use href="/Image/symbol-defs.svg#click"></use>
               </svg>
             </p>
           </a>
           <div className={style.info_item}>
-            <h4 className={style.name_proj}>{item.name}</h4>
-            <p>{item.description}</p>
-            <h4 className={style.lang_title}>Language:</h4>
-            <p>{item.language.join(", ")}</p>
+            <div className={style.span_marg}>
+              <h4 className={style.name_proj}>{item.name}</h4>
+              <p className={style.font_style}>{item.description}</p>
+            </div>
+            <h4 className={style.lang_title}>Technologies:</h4>
+            <p className={style.font_style}>{item.language.join(", ")}</p>
           </div>
         </li>
       ))}
