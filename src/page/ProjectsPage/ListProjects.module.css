@@ -7,6 +7,10 @@
 }
 
 .proj_title {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #00695c;
+  padding: 5px 20px;
   margin-bottom: 30px;
   font-size: 25px;
 }

@@ -10,10 +10,13 @@
 }
 
 .header {
-  background-color: rgb(71, 127, 148);
+  display: flex;
+  gap: 10px;
+  background-color: #00695c;
   border-radius: 15px;
+  padding: 25px 45px;
+
   min-height: 80px;
-  padding: 10px;
   grid-area: h;
 }
 
@@ -22,7 +25,8 @@
 }
 
 .main {
-  background-color: rgb(214, 109, 28);
+  background-color: #1f3b4d;
+  /* background-color: rgb(214, 109, 28); */
   grid-area: m;
   min-height: 500px;
   border-radius: 15px;

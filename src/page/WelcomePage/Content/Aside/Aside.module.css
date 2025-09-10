@@ -1,9 +1,9 @@
 .aside {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 
 .title {
@@ -30,6 +30,7 @@
   }
 
   .aside {
+    max-height: 380px;
     gap: 30px;
   }
   .social_list {

@@ -1,49 +1,66 @@
+import style from "./Main.module.css";
+
 const Main = ({ className }) => {
   return (
-    <main className={className}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
-      magnam? Laboriosam sapiente, nihil nesciunt sed tempora eum obcaecati
-      maxime illo cupiditate, consequatur minus exercitationem ad ratione totam
-      saepe cumque. Cumque, dicta beatae ut explicabo corrupti labore? Quod
-      molestiae saepe distinctio iure veniam similique cum consequuntur
-      inventore quam eligendi molestias perferendis placeat, enim, voluptas
-      minima totam dicta! Nostrum voluptatem inventore mollitia, debitis eos
-      vero quae officiis sit ad delectus incidunt nemo nobis non at aliquam
-      nihil voluptate suscipit velit minus! Consequatur, harum delectus
-      necessitatibus, ab temporibus eaque optio voluptatum facilis provident
-      odit sit commodi nesciunt! Nulla exercitationem similique nam perferendis
-      quos amet at sed ab maiores? Praesentium natus quod dolor reiciendis,
-      aspernatur molestiae. Unde obcaecati nulla, ad nobis odit ab, cum natus
-      maxime sapiente in autem delectus architecto nihil voluptate perspiciatis
-      sint neque doloremque culpa sed? Aliquid repudiandae illo nam molestiae
-      veniam laboriosam perspiciatis mollitia quibusdam. Sint nulla nisi et
-      doloremque ab, repellendus iure nam iusto veniam eius. Iste rerum nulla
-      accusamus! Eius ut aut exercitationem minima quod itaque, soluta sequi
-      consequuntur amet cupiditate repudiandae doloremque officia explicabo
-      harum, laborum distinctio voluptatum omnis modi voluptatem, autem in eaque
-      commodi qui corrupti! Omnis accusantium minus cumque eos ipsam, sed
-      facilis nesciunt quidem illum maxime expedita, enim amet sit veniam error
-      numquam. Ex tempore quisquam aliquid adipisci error nostrum placeat
-      molestias aut, ipsa blanditiis deleniti voluptatum odio minus itaque, quam
-      sint enim perspiciatis harum, doloribus necessitatibus sunt omnis.
-      Deleniti optio explicabo dolore exercitationem ea consectetur, illum saepe
-      ipsa beatae impedit doloremque consequatur labore blanditiis earum
-      possimus soluta, atque nostrum incidunt. Cumque mollitia ipsam eveniet.
-      Quis ratione aperiam minus voluptatibus laboriosam dolorem impedit odio
-      eaque qui nobis, vel, fugiat numquam nemo facere a! Quisquam voluptatum
-      rem magni quaerat illum perferendis perspiciatis. Magni perferendis earum
-      cum minima sapiente! Maiores aperiam ad repellendus ea facilis dolores
-      voluptate reprehenderit minus consequuntur earum! Inventore voluptatem hic
-      reprehenderit aperiam. Aut nisi, molestias mollitia, totam iusto corporis
-      soluta quae iure eum est, ducimus nostrum labore nulla? Alias, cum.
-      Tempora impedit natus laboriosam inventore eos facilis corporis fugiat
-      asperiores assumenda ipsa. Eum odit impedit aut sunt amet nobis
-      consequatur quos saepe in sapiente nostrum, pariatur labore officia
-      similique nemo facere accusamus explicabo ab doloremque. Dolorem quibusdam
-      nostrum labore repudiandae, deserunt distinctio totam ipsa eaque a,
-      excepturi, alias error pariatur id assumenda accusantium vero consectetur
-      minus quo qui. Amet accusamus odio perferendis beatae, dolor fuga.
-      Aperiam, praesentium voluptatem tempora, pariatur numquam culpa voluptates
+    <main className={`${style.main} ${className}`}>
+      <h2 className={style.profile}>
+        <h4>✨ About Me:</h4> <br />
+        <p className={style.indent}>
+          I studied for over a year at the GoIT online school in the Fullstack
+          Developer program. However, I found myself more passionate about
+          Frontend development, where I want to continue growing professionally
+          🚀.
+        </p>
+        <br />
+        <p> I am confident in:</p>
+        <br />
+        <p className={style.indent}>
+          🔹 HTML5 and CSS3/SCSS – building modern, adaptive, and user-friendly
+          interfaces
+        </p>
+        <br />
+        <p className={style.indent}>
+          🔹 🎨 JavaScript (ES6+) – understanding core principles and
+          implementing dynamic functionality ⚡
+        </p>
+        <br />
+        <p className={style.indent}>
+          🔹 Git & npm – confident use of version control and package management
+          tools for efficient teamwork and project setup
+        </p>
+        <br />
+        <p>
+          Additionally, I have basic knowledge of Backend development (Node.js,
+          Express, working with REST APIs), which helps me better understand the
+          interaction between frontend and server-side 🔗.
+        </p>
+        <br />
+        <p>Currently, I am focusing on improving my skills in: </p>
+        <br />
+        <p className={style.indent}>
+          🔹 React.js ⚛️ – aiming to become a strong specialist in creating
+          scalable SPAs
+        </p>{" "}
+        <br />
+        <p className={style.indent}>
+          🔹 TypeScript 🟦 – to write more structured, maintainable, and
+          reliable code
+        </p>
+        <br />
+        <p className={style.indent}>
+          💡 I am motivated, eager to learn, and always looking to improve my
+          skills. My goal is to become a strong Frontend Developer who writes
+          clean, efficient code and delivers smooth, user-friendly experiences
+          🙌.
+        </p>
+        <br />
+        <p className={style.indent}>
+          🔍 I am looking for a team where I can learn a lot, grow together with
+          colleagues, and contribute effectively to projects. I value and enjoy
+          teamwork, am open to new experiences, and always strive for continuous
+          improvement 🤝.
+        </p>
+      </h2>
     </main>
   );
 };

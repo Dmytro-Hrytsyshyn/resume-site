@@ -7,6 +7,9 @@
   background-color: #17253091;
   overflow: hidden;
 }
+.visit_site_container_content {
+  opacity: 0;
+}
 
 .img {
   width: 100%;
@@ -37,9 +40,13 @@
     overflow: hidden;
   }
 
+  .img {
+    width: 400px;
+  }
+
   .project_item:hover .img {
-    filter: brightness(40%);
-    transition: 0.3s;
+    transition: 0.5s;
+    filter: brightness(45%);
   }
 
   .img_url {
@@ -49,20 +56,18 @@
   .title_click_url {
     fill: #ffffff;
     color: #ffffff;
-    display: none;
   }
 
-  .project_item:hover .title_click_url {
-    display: block;
+  .visit_site_container_content {
     font-size: 50px;
     position: absolute;
     top: 80px;
     left: 40px;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
-  .img {
-    width: 400px;
+  .project_item:hover .visit_site_container_content {
+    opacity: 1;
   }
 
   .project_item:hover {

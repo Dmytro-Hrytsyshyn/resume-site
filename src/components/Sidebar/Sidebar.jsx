@@ -10,7 +10,7 @@ const Sidebar = ({ routers, openMenu, toggleMenu }) => {
         }`}
         onClick={toggleMenu}
       >
-        <svg className={style.svg_icon_menu} height="35" width="35">
+        <svg className={style.svg_icon_menu} height="30" width="30">
           <use href="/Image/symbol-defs.svg#icon-menu"></use>
         </svg>
       </button>

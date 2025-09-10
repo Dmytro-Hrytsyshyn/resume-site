@@ -15,6 +15,9 @@ const AsideSkills = ({ className }) => {
         spaceBetween={1}
         loop={true}
         breakpoints={{
+          240: {
+            slidesPerView: 2,
+          },
           350: {
             slidesPerView: 3,
           },
