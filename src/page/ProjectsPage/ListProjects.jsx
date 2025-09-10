@@ -14,12 +14,12 @@ const ListProjects = () => {
 
   return (
     <div className={style.projects_container}>
-      <h3 className={style.proj_title}>Personal projects</h3>
+      <h3 className={style.proj_title}>👦 Personal projects</h3>
       <ul className={style.projects_list}>
         <PersonalProjects personalProjects={personalProjects} />
       </ul>
 
-      <h3 className={style.proj_title}>Teams projects</h3>
+      <h3 className={style.proj_title}>👥 Teams projects</h3>
       <ul className={style.projects_list}>
         <TeamProjects teamProjects={teamProjects} />
       </ul>

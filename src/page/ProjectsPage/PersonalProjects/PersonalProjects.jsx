@@ -19,10 +19,14 @@ const PersonalProjects = ({ personalProjects }) => {
           <div className={style.info_item}>
             <div className={style.span_marg}>
               <h4 className={style.name_proj}>{item.name}</h4>
-              <p className={style.font_style}>{item.description}</p>
+              <p className={style.font_style}>
+                <p className={style.indent}>{item.description}</p>
+              </p>
             </div>
             <h4 className={style.lang_title}>Technologies:</h4>
-            <p className={style.font_style}>{item.language.join(", ")}</p>
+            <p className={style.font_style}>
+              <i>{item.language.join(", ")}</i>
+            </p>
           </div>
         </li>
       ))}

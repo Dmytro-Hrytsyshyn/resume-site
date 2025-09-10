@@ -7,8 +7,13 @@
   background-color: #17253091;
   overflow: hidden;
 }
+
+.indent {
+  text-indent: 8px;
+}
+
 .visit_site_container_content {
-  opacity: 0;
+  display: none;
 }
 
 .img {
@@ -26,7 +31,7 @@
   margin-bottom: 5px;
 }
 .font_style {
-  font-size: 15px;
+  font-size: 19px;
   margin-left: 2px;
 }
 
@@ -75,15 +80,16 @@
   }
 
   .info_item {
-    padding: 10px;
+    padding: 20px 10px;
   }
 
   .name_proj {
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 25px;
+    margin-bottom: 8px;
   }
 
   .lang_title {
+    font-size: 20px;
     margin-bottom: 5px;
   }
 
