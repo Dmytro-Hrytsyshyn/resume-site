@@ -32,7 +32,7 @@ The website adapts smoothly at the 1000px breakpoint, ensuring a perfect experie
 
 Clone the repository:
 
-git clone <repository-url>
+git clone https://github.com/Dmytro-Hrytsyshyn/resume-site.git
 
 
 Install dependencies:
