@@ -27,6 +27,13 @@ const Sidebar = ({ routers, openMenu, toggleMenu }) => {
             <SidebarPages routers={routers} />
           </ul>
         </nav>
+        {/* <label className={style.switch}>
+          <input className={style.cb} type="checkbox" />
+          <span className={style.toggle}>
+            <span className={style.left}>ENG</span>
+            <span className={style.right}>UKR</span>
+          </span>
+        </label> */}
       </aside>
     </div>
   );

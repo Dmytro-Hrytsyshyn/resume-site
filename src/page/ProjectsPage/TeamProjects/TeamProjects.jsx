@@ -1,4 +1,4 @@
-import style from "../PersonalProjects/PersonalProjects.module.css";
+import style from "../PersonalProjects/AllProjectsStyle.module.css";
 
 const TeamProjects = ({ teamProjects }) => {
   return (
@@ -23,6 +23,11 @@ const TeamProjects = ({ teamProjects }) => {
             </div>
             <h4 className={style.lang_title}>Technologies:</h4>
             <p className={style.font_style}>{item.language.join(", ")}</p>
+            <h3>
+              <a target="_blank" className={style.rep_link} href={item.rep}>
+                Repositories
+              </a>
+            </h3>
           </div>
         </li>
       ))}

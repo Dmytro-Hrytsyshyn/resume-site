@@ -16,11 +16,16 @@
   display: none;
 }
 
+.photo {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 1000px) {
   .certificate_list {
-    display: flex;
-    flex-wrap: wrap;
-    height: 800px;
+    grid-template-columns: 1fr 1fr;
+
+    height: 900px;
     border-radius: 15px;
   }
 

@@ -1,4 +1,4 @@
-import style from "../PersonalProjects/PersonalProjects.module.css";
+import style from "../PersonalProjects/AllProjectsStyle.module.css";
 
 const PersonalProjects = ({ personalProjects }) => {
   return (
@@ -27,6 +27,11 @@ const PersonalProjects = ({ personalProjects }) => {
             <p className={style.font_style}>
               <i>{item.language.join(", ")}</i>
             </p>
+            <h3>
+              <a target="_blank" className={style.rep_link} href={item.rep}>
+                Repositories
+              </a>
+            </h3>
           </div>
         </li>
       ))}

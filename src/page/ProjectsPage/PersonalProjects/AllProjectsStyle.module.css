@@ -8,6 +8,17 @@
   overflow: hidden;
 }
 
+.rep_link {
+  text-decoration: underline;
+  color: #6291b4;
+  padding: 20px 0;
+  transition: 0.3s;
+}
+
+.rep_link:hover {
+  color: #a5bed1;
+}
+
 .indent {
   text-indent: 8px;
 }
@@ -30,9 +41,11 @@
 .span_marg {
   margin-bottom: 5px;
 }
+
 .font_style {
   font-size: 19px;
   margin-left: 2px;
+  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -72,6 +85,7 @@
   }
 
   .project_item:hover .visit_site_container_content {
+    display: block;
     opacity: 1;
   }
 
